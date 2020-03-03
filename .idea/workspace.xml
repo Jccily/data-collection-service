@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="989e64c2-9b5e-47a6-a112-fb5622d80089" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="data-collection-service" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e46e54ce-9e3e-44e6-aa4e-604fa3b9fdfe" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Project\apache-maven-3.6.3\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Project\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XyMigo4AAsTHb9f6sXXe2EWybg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="data-collection-service" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lonbon.datacollectionservice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lonbon.datacollectionservice.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\data-collection-service\src\main\resources\mapper" />
+      <recent name="D:\Project\data-collection-service\src\main\java\com\lonbon\datacollectionservice\utils" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8899" />
+          <option name="urlPath" value="/api/v1.0/data/device/position" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="orgId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8080" />
+          <option name="urlPath" value="/api/v1.0/data/device/position" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="orgId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8080" />
+          <option name="urlPath" value="/api/v1.0/data/device/position" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="orgId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8080" />
+          <option name="urlPath" value="/api/v1.0/data/device/position" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="orgId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9076" />
+          <option name="urlPath" value="/api/v1.0/data/device/position" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="orgId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9076" />
+          <option name="urlPath" value="/api/v1.0/data/device/position" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="orgId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DataCollectionServiceApplication">
+    <configuration name="DataCollectionServiceApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-collection-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lonbon.datacollectionservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lonbon.datacollectionservice" />
+      <option name="MAIN_CLASS_NAME" value="com.lonbon.datacollectionservice.DataCollectionServiceApplication" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCollectionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data-collection-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lonbon.datacollectionservice.DataCollectionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataCollectionServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\MiBook\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="989e64c2-9b5e-47a6-a112-fb5622d80089" name="Default Changelist" comment="" />
+      <created>1582014009964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582014009964</updated>
+      <workItem from="1582014017300" duration="2719000" />
+      <workItem from="1582018047182" duration="8154000" />
+      <workItem from="1582081126672" duration="149000" />
+      <workItem from="1582092501890" duration="608000" />
+      <workItem from="1582095358745" duration="3316000" />
+      <workItem from="1582161656361" duration="1243000" />
+      <workItem from="1582186504758" duration="1433000" />
+      <workItem from="1582255004305" duration="1658000" />
+      <workItem from="1582267974736" duration="2823000" />
+      <workItem from="1582464222209" duration="11584000" />
+      <workItem from="1582505644996" duration="1144000" />
+      <workItem from="1582509937375" duration="359000" />
+      <workItem from="1582510307731" duration="10443000" />
+      <workItem from="1582523856550" duration="458000" />
+      <workItem from="1582524952713" duration="398000" />
+      <workItem from="1582525354231" duration="1389000" />
+      <workItem from="1582534882522" duration="124000" />
+      <workItem from="1582535008100" duration="12363000" />
+      <workItem from="1582614442976" duration="5899000" />
+      <workItem from="1582815355660" duration="1500000" />
+      <workItem from="1582865419569" duration="606000" />
+      <workItem from="1582962469998" duration="1197000" />
+      <workItem from="1583116561378" duration="902000" />
+      <workItem from="1583215083489" duration="2418000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit.">
+      <created>1582525129098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582525129098</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modify">
+      <created>1582526571278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582526571278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modify">
+      <created>1582556039838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582556039838</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modify">
+      <created>1583216135135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583216135135</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify">
+      <created>1583216359134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583216359134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit." />
+    <MESSAGE value="Modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1582552574179">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582552574179" />
+    <state x="946" y="454" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582524981604">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="946" y="454" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582524981604" />
+    <state x="699" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582523671220">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="699" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050@0.0.1920.1050" timestamp="1582523671220" />
+    <state x="313" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582474773717">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="313" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582474773717" />
+    <state x="392" y="277" key="CommitChangelistDialog2" timestamp="1583216358255">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="392" y="277" key="CommitChangelistDialog2/0.0.1440.2529@0.0.1440.2529" timestamp="1583216358255" />
+    <state x="522" y="115" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1582709177329" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1582709263629">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582709263629" />
+    <state x="509" y="735" key="FileChooserDialogImpl" timestamp="1583216750435">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="509" y="735" key="FileChooserDialogImpl/0.0.1440.2529@0.0.1440.2529" timestamp="1583216750435" />
+    <state x="678" y="305" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582705292530" />
+    <state x="545" y="1179" width="375" height="172" key="Github.CreateGistDialog" timestamp="1583216160617">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="545" y="1179" width="375" height="172" key="Github.CreateGistDialog/0.0.1440.2529@0.0.1440.2529" timestamp="1583216160617" />
+    <state x="376" y="1155" width="331" height="256" key="Github.ShareDialog" timestamp="1583217584686">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="376" y="1155" width="331" height="256" key="Github.ShareDialog/0.0.1440.2529@0.0.1440.2529" timestamp="1583217584686" />
+    <state width="1877" height="461" key="GridCell.Tab.0.bottom" timestamp="1582718055536">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582718055536" />
+    <state width="1877" height="461" key="GridCell.Tab.0.center" timestamp="1582718055536">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582718055536" />
+    <state width="1877" height="461" key="GridCell.Tab.0.left" timestamp="1582718055535">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582718055535" />
+    <state width="1877" height="461" key="GridCell.Tab.0.right" timestamp="1582718055536">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582718055536" />
+    <state width="1877" height="461" key="GridCell.Tab.1.bottom" timestamp="1582709362945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582709362945" />
+    <state width="1877" height="461" key="GridCell.Tab.1.center" timestamp="1582709362945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582709362945" />
+    <state width="1877" height="461" key="GridCell.Tab.1.left" timestamp="1582709362945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582709362945" />
+    <state width="1877" height="461" key="GridCell.Tab.1.right" timestamp="1582709362945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="461" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582709362945" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1582523849069">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582523849069" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1582523849069">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582523849069" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1582523849069">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582523849069" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1582523849069">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582523849069" />
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1582028294235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582028294235" />
+    <state x="710" y="236" key="RollbackChangesDialog" timestamp="1582617491908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="710" y="236" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582617491908" />
+    <state x="117" y="411" key="SettingsEditor" timestamp="1583217561812">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="117" y="411" key="SettingsEditor/0.0.1440.2529@0.0.1440.2529" timestamp="1583217561812" />
+    <state x="658" y="153" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1582551424318" />
+    <state x="345" y="880" key="Vcs.Push.Dialog.v2" timestamp="1583216435346">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="345" y="880" key="Vcs.Push.Dialog.v2/0.0.1440.2529@0.0.1440.2529" timestamp="1583216435346" />
+    <state x="596" y="259" key="VcsDiffUtil.ChangesDialog" timestamp="1582709258653">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="596" y="259" key="VcsDiffUtil.ChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582709258653" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582536463994">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582536463994" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582510924875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582510924875" />
+    <state x="480" y="841" key="com.intellij.ide.util.TipDialog" timestamp="1583215739770">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="480" y="841" key="com.intellij.ide.util.TipDialog/0.0.1440.2529@0.0.1440.2529" timestamp="1583215739770" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582964664442" />
+    <state x="580" y="894" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583215816719">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="580" y="894" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.2529@0.0.1440.2529" timestamp="1583215816719" />
+    <state x="773" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1582709263622" />
+    <state x="636" y="258" width="647" height="534" key="find.popup" timestamp="1582535683332">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="258" width="647" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1582535683332" />
+    <state x="495" y="1107" key="git4idea.ui.GitTagDialog" timestamp="1583216510050">
+      <screen x="0" y="0" width="1440" height="2529" />
+    </state>
+    <state x="495" y="1107" key="git4idea.ui.GitTagDialog/0.0.1440.2529@0.0.1440.2529" timestamp="1583216510050" />
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1582024418970">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1582024418970" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1582550066134">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1582550066134" />
+    <state x="790" y="316" key="svn.repositoryBrowser" timestamp="1582524501343">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="790" y="316" key="svn.repositoryBrowser/0.0.1920.1050@0.0.1920.1050" timestamp="1582524501343" />
+    <state x="805" y="438" key="svn.upgradeDialog" timestamp="1582535003608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="805" y="438" key="svn.upgradeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582535003608" />
+    <state x="609" y="391" key="svn4idea.checkout.options" timestamp="1582535002342">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="609" y="391" key="svn4idea.checkout.options/0.0.1920.1050@0.0.1920.1050" timestamp="1582535002342" />
+    <state x="677" y="289" key="svn4idea.import.options" timestamp="1582524263903">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="677" y="289" key="svn4idea.import.options/0.0.1920.1050@0.0.1920.1050" timestamp="1582524263903" />
+  </component>
+</project>
