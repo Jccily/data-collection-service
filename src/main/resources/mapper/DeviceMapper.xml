@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lonbon.datacollectionservice.dao.DeviceMapper">
+    <resultMap id="device" type="com.lonbon.datacollectionservice.model.locationSharing.Device">
+        <result column="mac" property="mac"/>
+        <result column="imei" property="imei"/>
+        <result column="position_desc" property="positionDesc"/>
+        <result column="longitude" property="longitude"/>
+        <result column="latitude" property="latitude"/>
+        <result column="device_type" property="deviceType"/>
+        <result column="org_id" property="orgId"/>
+    </resultMap>
+
+    <select id="getDevicePosition" resultMap="device">
+        SELECT
+            mac,
+            imei,
+            device_type,
+            position_desc,
+            longitude,
+            latitude,
+            org_id
+        FROM lb_device_position
+        WHERE  1=1
+        <if test="null!=orgId and ''!=orgId">
+            AND org_id = #{orgId}
+        </if>
+        <if test="null!=mac and ''!=mac">
+            AND mac = #{mac}
+        </if>
+        <if test="null!=imei and ''!=imei">
+            AND imei = #{imei}
+        </if>
+        AND device_type = #{deviceType}
+    </select>
+
+    <select id="searchDevice" resultType="integer">
+            SELECT COUNT(*) FROM lb_device_position
+        WHERE org_id = #{orgId}
+        <if test="null!=mac and ''!=mac">
+            AND mac = #{mac}
+        </if>
+        <if test="null!=imei and ''!=imei">
+            AND imei = #{imei}
+        </if>
+        AND device_type = #{deviceType}
+</select>
+
+    <insert id="saveDevicePosition" parameterType="com.lonbon.datacollectionservice.model.locationSharing.Device">
+        INSERT INTO lb_device_position
+        (device_position_id,mac,imei,position_desc,longitude,latitude,device_type,org_id,create_time,update_time)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+        (#{item.devicePositionId},#{item.mac},#{item.imei},#{item.positionDesc},#{item.longitude},#{item.latitude},#{item.deviceType},#{item.orgId},unix_timestamp(now()),unix_timestamp(now()))
+        </foreach>
+    </insert>
+</mapper>
